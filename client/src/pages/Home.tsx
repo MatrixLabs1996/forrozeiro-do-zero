@@ -3,17 +3,16 @@ import { Card } from "@/components/ui/card";
 import { ChevronDown } from "lucide-react";
 import { useRef } from "react";
 
-const LOGO_URL = "/manus-storage/logodozeroaoforrozeiro_64507917.png";
-const EXPERT_HERO_URL = "/manus-storage/imagemexperthero_da27eb89.png";
-const EXPERT_PHOTO_URL = "/manus-storage/quemsoueucasbri_85953d0e.png";
+const LOGO_URL = "/logo.jpg";
+const EXPERT_HERO_URL = "/hero.jpg";
+const EXPERT_PHOTO_URL = "/expert.jpg";
 
-// URLs dos placeholders de depoimentos
 const TESTIMONIAL_URLS = [
-  "/manus-storage/depoimento-01.jpg",
-  "/manus-storage/depoimento-02.jpg",
-  "/manus-storage/depoimento-03.jpg",
-  "/manus-storage/depoimento-04.jpg",
-  "/manus-storage/depoimento-05.jpg",
+  "/depoimento-01.avif",
+  "/depoimento-02.avif",
+  "/depoimento-03.avif",
+  "/depoimento-04.avif",
+  "/depoimento-05.avif",
 ];
 
 export default function Home() {
